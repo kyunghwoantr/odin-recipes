@@ -1,7 +1,33 @@
 body {
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    padding: 0px 100px
+}
+
+h1 {
+    display: inline-block;
+}
+
+img {
+    display: block;
 }
 
 h2 {
     color: darkgrey
+}
+
+.description,
+.steps {
+    background-color: bisque;
+}
+
+.ingredients {
+    background-color:cornsilk;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+div {
+    padding: 10px;
 }
